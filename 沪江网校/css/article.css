@@ -1,0 +1,550 @@
+
+input.inp1{
+	width:200px;
+	height:28px;
+	float:left;
+	margin-top:6px;
+	border:0;
+	padding-left:16px;
+	color:#666666;
+	background:#fff url(../images/top-search.png) no-repeat 195px center;
+	outline-style:none;
+	margin-left:5px;
+	border-radius: 3px;
+	}
+
+.btn1{
+	/*width:105px;*/
+	height:38px;
+	float:right;
+	}
+.btn1 a{
+	display:inline-block;
+	height:38px;
+	line-height:38px;
+	float:right;
+	margin-right:15px;
+	color:#fff;
+	font-size: 13px
+	
+	}
+/*顶部样式结束*/
+
+
+/*搜索主体样式开始*/
+.sousuo{
+	width: 1200px;
+	height: 104px;
+	/*background: pink;*/
+	margin:0 auto;
+}
+.sousuo-left{
+	width: 200px;
+	height: 80px;
+	background:url(../images/logo2.gif) no-repeat;
+	margin-top: 18px;
+	float: left;
+}
+.sousuo-center{
+	width: 791px;
+	height: 75px;
+	float: left;
+	margin-top:5px;
+}
+.sousuo-center ul li{
+	float: left;
+	font-size: 12px;
+	color:#666666;
+	margin-right: 13px;
+}
+.sousuo-center ul li a{
+	font-size: 12px;
+	color:#666666;
+}
+.sousuo-center ul li a:hover{
+	color: #57BC4C;
+}
+.anout{
+	height: 39px;
+	width: 791px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.sousuo-center ul li a.orange{
+	color: #FF6600;
+}
+#inp2{
+	width: 615px;
+	height: 37px;
+	border: 2px solid #57BC4C;
+	outline: none;
+	float: left;
+	padding-left: 40px;
+	background:#fff url(../images/top-search.png) no-repeat 15px center;
+	color: #999;
+}
+#btn2{
+	float: left;
+	width: 101px;
+	height: 41px;
+	background-color:#57BC4C;
+	border: 0;
+	color: #fff;
+	font-size: 16px;
+	outline: none;
+}
+.shoucang{
+	width: 140px;
+	height: 40px;
+	border: 1px solid #E8E8E8;
+	float: right;
+	margin-top: 24px;
+	line-height: 40px;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+	color: #666666;
+}
+
+
+.shoucang i{
+	color: #FF9600;
+	font-size: 16px;
+	margin-right: 5px;
+
+}
+.shoucang i.little{
+	color: #C0B7B9;
+	font-size: 10px;
+	margin-left: 5px;
+}
+.sousuo-right{
+	position: relative;
+}
+.shoucang-down{
+	width: 221px;
+	height: 40px;
+	border: 1px solid #E8E8E8;
+	position: absolute;
+	top:65px;
+	right:0px;
+	display: none;
+	font-size: 14px;
+	line-height: 40px;
+	color: #666666;
+	padding-left: 10px;
+}
+.shoucang-down a{
+	color: #57BC4C;
+}
+.shoucang-up{
+	width: 140px;
+	height: 40px;
+	position: absolute;
+	top:24px;
+	right:0px;
+	border:1px solid #E8E8E8;
+	border-bottom-color: #fff;
+	display: none;
+
+}
+/*搜索主体样式结束*/
+
+
+/* 内容部分样式开始 */
+.content{
+	/* height: 99999px; */
+	background:#F4F4F4 url(../images/courseBg.gif) no-repeat center 0;
+
+}
+
+/* 菜单栏样式开始 */
+.caidan{
+	width: 1200px;
+	background: #fff;
+	margin: 0 auto;
+	border-bottom: #ECECEC solid 1px;
+}
+.caidan .hd{
+	height: 48px;
+	width: 1200px;
+
+}
+.caidan .hd li{
+	float: left;
+}
+.caidan .hd li a{
+	display: block;
+	padding: 0 5px;
+	margin: 0 20px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 14px;
+	color: #494949;
+
+}
+.out{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 10px 0;
+	background: #fff;
+	overflow: hidden;
+	padding-bottom: 5px;
+}
+.detai{
+	width: 1200px;
+	overflow: hidden;
+
+}
+.detai li{
+	float: left;
+	height: 46px;
+}
+.detai li.ceng1{
+	width: 1160px;
+	height: 46px;
+	border-bottom: 1px dashed #ECECEC;
+	line-height: 46px;
+	padding: 0 20px;
+}
+.ceng1 ol li.first{
+	width: 80px;
+	font-size: 14px;
+	color: #999999;
+}
+.ceng1 ol li a{
+	padding: 0 15px;
+	font-size: 14px;
+	color: #666666;
+}
+.btn{
+	font-size: 14px;
+	/* height: 40px; */
+	width: 75px;
+	margin:0 auto;
+	line-height: 40px;
+	cursor: pointer;
+	color: #666666;
+	background: url(../images/down.png) no-repeat right center;
+
+}
+/* 菜单栏样式结束 */
+
+/* 内容部分导航样式开始 */
+.xiala{
+	height: 48px;
+	width: 1200px;
+	margin:0 auto;
+	font-size: 14px;
+	color: #666666;
+}
+.allclass{
+	float: left;
+	height: 48px;
+	width: 367px;
+}
+.allclass li{
+	float: left;
+	height: 27px;
+	margin-right: 10px;
+	line-height: 27px;
+	margin-top: 10px;
+}
+.allclass li a.E0{
+	color: #666666;
+	display: block;
+	height: 27px;
+	padding: 0 26px 0 11px;
+	line-height: 27px;
+	margin-right: 10px;
+}
+.allclass li.E1 a.E1a,.allclass li.E2 a.E2a{
+	border: 1px dashed #B7B7B7;
+}
+.allclass li.E1 a.E1a{
+	background:#fff url(../images/downup.png) no-repeat 46px center;
+}
+.allclass li.E2 a.E2a{
+	background:#fff url(../images/downup.png) no-repeat 75px center;
+}
+.allclass li.E1:hover a.E1a{  background:#fff url(../images/updown.png) no-repeat 46px center;}
+.allclass li.E2:hover a.E2a{  background:#fff url(../images/updown.png) no-repeat 75px center;}
+.resoult{
+	float: right;
+	height: 48px;
+	line-height: 48px;
+	margin-right: 20px;
+}
+.allclass li.E1,.allclass li.E2{
+	position: relative;
+}
+.E1-list{
+	width: 94px;
+	height: 251px;
+	position: absolute;
+	top:25px;
+	left:0px;
+	border: 1px dashed #B7B7B7;
+	background: #fff;
+	display: none;
+
+}
+.E1-list li{
+	width: 94px;
+	height: 16px;
+}
+.E1-list li a{
+	display: block;
+	width: 82px;
+	height: 24px;
+	font-size: 12px;
+	line-height: 24px;
+	padding-left: 12px;
+	color: #666;
+}
+.E1-list li a:hover,.E2-list li a:hover{
+	color: #57BC4C;
+}
+.line1{
+	width: 65px;
+	height: 24px;
+	border: 1px dashed #B7B7B7;
+	border-bottom:1px solid #fff ;
+	top:0;
+	left: 0;
+	z-index: 5;
+	position: absolute;
+	display: none;
+}
+.E2-list{
+	width: 93px;
+	height: 120px;
+	border: 1px dashed #B7B7B7;
+	background: #fff;
+	position: absolute;
+	top:24px;
+	left: 0px;
+	display: none;
+
+}
+.E2-list li{
+	width: 81px;
+	height: 16px;
+	font-size: 12px;
+	padding-left: 12px;
+}
+.E2-list li a{
+	color: #666;
+}
+.line2{
+	width: 93px;
+	height: 23px;
+	border: 1px dashed #B7B7B7;
+	border-bottom:1px solid #fff ;
+	top:0;
+	left: 0;
+	z-index: 15;
+	position: absolute;
+	display: none;
+}
+
+/* 内容部分导航样式结束 */
+
+
+
+
+/* 开学季样式开始 */
+.terms{
+	width: 1200px;
+	height: 1000px;
+	margin: 20px auto 0;
+}
+.termHd{
+	height: 37px;
+	padding-left: 20px;
+	background: #fff;
+	width: 930px;
+	border-bottom: #EEEEEE solid 1px;
+	position: relative;
+}
+.termHd img{
+	position: absolute;
+	top:5px;
+	left: 300px;
+}
+.termHd input{
+	display: block;
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	top:12px;
+	left:270px;
+}
+.must li{
+	height: 37px;
+	float: left;
+	line-height: 37px;
+	margin-right: 20px;	
+}
+.must li a{
+	display: block;
+	height: 35px;
+	padding: 0 10px;
+	color: #494949;
+
+}
+.must li.current a{
+	border-bottom: #57BC4C solid 2px;
+
+}
+.term-left{
+	width: 950px;
+	height: 792px;
+	float: left;
+}
+.term-right{
+	width: 230px;
+	height: 510px;
+	float: right;
+	background: #fff;
+}
+.book li{
+	height: 170px;
+	width: 100%;
+	background: #fff;
+	position: relative;
+	border-bottom: #F2F2F2 solid 1px;
+}
+.book li img{
+	display: block;
+	width: 160px;
+	height: 106px;
+	position: absolute;
+	top:30px;
+	left:21px;
+}
+.book li h5{
+	position: absolute;
+	font-size: 16px;
+	color: #494949;
+	top:30px;
+	left: 196px;
+}
+.book li p{
+	position: absolute;
+	top:61px;
+	left: 190px;
+	color: #666666;
+	font-size: 14px;
+}
+.book li em{
+	position: absolute;
+	display: block;
+	width: 76px;
+	height: 14px;
+	right: 20px;
+	top:120px;
+	font-size: 12px;
+	color: #B7B7B7;
+	text-align: right;
+	background: url(../images/xingxing.png) no-repeat left center;
+}
+.book li i{
+	display: block;
+	width: 47px;
+	height: 17px;
+	background: url(../images/termvi.png) no-repeat left center;
+	position: absolute;
+	top:30px;
+	right:375px;
+	text-align: right;
+	font-size: 12px;
+	line-height: 17px;
+
+}
+.book li a{
+	display: block;
+	position: absolute;
+	width: 88px;
+	height: 30px;
+	border: 1px solid #57BC4C;
+	right: 20px;
+	top:62px;
+	border-radius: 3px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	color: #57BC4C;
+}
+.book li span{
+	position: absolute;
+	top:92px;
+	left: 196px;
+	color: #FF6600;
+	font-size: 18px;
+	font-weight: bold;
+}
+.book li span del{
+	margin-left: 10px;
+	font-size: 13px;
+	font-weight: normal;
+}
+.book li strong{
+	position: absolute;
+	top:121px;
+	left:196px;
+	color: #999999;
+	font-weight: normal;
+	font-size: 14px;
+}
+.page{
+	width: 950px;
+	height: 55px;
+	padding-top: 25px;
+
+}
+.page a{
+	display: block;
+	height: 40px;
+	width: 40px;
+	background: #74CD55;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	margin: 0 auto;
+	border-radius: 4px;
+}
+
+.term-right h4{
+	width: 100%;
+	height: 41px;
+	border-bottom: #EEEEEE solid 1px;
+	line-height: 41px;
+	font-size: 16px;
+	color: #666666;
+	font-weight: normal;
+	padding-left: 20px;
+}
+.hot li{
+	height: 78px;
+	width: 100%;
+	padding-top: 20px;
+	border-bottom: #EEEEEE solid 1px;
+}
+.hot li img{
+	width: 90px;
+	height: 60px;
+	float: left;
+	margin-right: 20px;
+}
+.hot li p{
+	font-size: 12px;
+	line-height: 20px;
+}
+.hot li span{
+	color: #FF6600;
+}
+
+/* 开学季样式结束 */
+
+
